@@ -1,0 +1,24 @@
+{
+  "name": "fressnapf-scraper-nodejs",
+  "version": "1.0.0",
+  "description": "webscraper for fressnapf.de",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianIrmer/fressnapf-scraper-nodejs.git"
+  },
+  "author": "Julian Irmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulianIrmer/fressnapf-scraper-nodejs/issues"
+  },
+  "homepage": "https://github.com/JulianIrmer/fressnapf-scraper-nodejs#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "mongojs": "^2.6.0"
+  }
+}
